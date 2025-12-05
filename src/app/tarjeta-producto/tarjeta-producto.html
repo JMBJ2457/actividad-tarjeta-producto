@@ -1,0 +1,15 @@
+<div class="tarjeta-producto">
+  <div class="tarjeta-producto__imagen">
+    <img [src]="imagenUrl" [alt]="titulo" />
+  </div>
+
+  <div class="tarjeta-producto__contenido">
+    <h2 class="tarjeta-producto__titulo">{{ titulo }}</h2>
+    <p class="tarjeta-producto__descripcion">{{ descripcion }}</p>
+    <p class="tarjeta-producto__precio">${{ precio }}</p>
+
+    <button class="tarjeta-producto__boton" type="button">
+      Añadir al carrito
+    </button>
+  </div>
+</div>
